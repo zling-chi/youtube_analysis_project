@@ -11,24 +11,24 @@
 ## 数据源
 https://www.kaggle.com/datasets/asaniczka/trending-youtube-videos-113-countries?resource=download
 ### Detail
-title-----视频标题
-channel_name-----频道名称
-daily_rank-----每日排名
-daily_movement-----每日变动
-weekly_movement-----每周变动
-snapshot_date-----数据收集日期
-country-----国家
-view_count-----观看次数
-like_count-----点赞次数
-comment_count-----评论次数
-description-----描述
-thumbnail_url-----视频缩略图URL
-video_id-----视频ID
-channel_id-----频道ID
-video_tags-----视频标签
-kind-----视频类型
-publish_date-----发布时间
-langauge-----语言
+#### title-----视频标题
+#### channel_name-----频道名称
+#### daily_rank-----每日排名
+#### daily_movement-----每日变动
+#### weekly_movement-----每周变动
+#### snapshot_date-----数据收集日期
+#### country-----国家
+#### view_count-----观看次数
+#### like_count-----点赞次数
+#### comment_count-----评论次数
+#### description-----描述
+#### thumbnail_url-----视频缩略图URL
+#### video_id-----视频ID
+#### channel_id-----频道ID
+#### video_tags-----视频标签
+#### kind-----视频类型
+#### publish_date-----发布时间
+#### langauge-----语言
 
 
 ## 项目结构
