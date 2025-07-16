@@ -45,10 +45,14 @@ https://www.kaggle.com/datasets/asaniczka/trending-youtube-videos-113-countries?
 ####       --create_table_fact_video_daily_metrics.sql
 ####   --insert_dimension_data   #创建的维度表数据
 ####       --insert_table_dim_channel.sql
+####       --insert_table_dim_video.sql
+####       --insert_table_dim_date.sql
+####       --insert_table_fact_video_daily_metrics.sql
 #### analysis/
 ####   --exploratory.ipynb   #数据分析
 ####   --metrics.sql   #SQL指标查询
 #### dashboard/   #可视化文件（PowerBI）
+####   --youtube_analysis.pbix
 #### README.md
 
 
