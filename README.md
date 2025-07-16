@@ -33,13 +33,18 @@ https://www.kaggle.com/datasets/asaniczka/trending-youtube-videos-113-countries?
 
 ## 项目结构
 #### data/  
-####   --sample.csv   
+####   --trending_yt_videos_113_countries.csv   
 #### ETL/
-####   --claean_data.py   #处理缺少值、转换数据类型
+####   --claean_data.py  #处理缺少值、转换数据类型
 ####   --load_to_db.py   #导入MySQL脚本
 #### warehose/
-####   --create_tables.sql   #建表语句（事务表/维度表）
-####   --insert_dimension_data.csv   #创建的维度表数据
+####   --create_tables   #建表语句（事务表/维度表）
+####       --create_table_dim_channel.sql
+####       --create_table_dim_video.sql
+####       --create_table_dim_date.sql
+####       --create_table_fact_video_daily_metrics.sql
+####   --insert_dimension_data   #创建的维度表数据
+####       --insert_table_dim_channel.sql
 #### analysis/
 ####   --exploratory.ipynb   #数据分析
 ####   --metrics.sql   #SQL指标查询
